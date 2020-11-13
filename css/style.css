@@ -230,7 +230,9 @@ body {
   line-height: 24px;
 }
 
-.list {}
+.list {
+  margin-bottom: 100px;
+}
 
 .list__title {
   font-weight: 700;
@@ -249,6 +251,7 @@ body {
   background-size: cover;
   background-position: top center;
   position: relative;
+  margin-top: -170px;
 }
 
 .list__inner {
@@ -266,7 +269,7 @@ body {
   font-size: 14px;
   line-height: 20px;
   color: #303030;
-  padding: 20px 40px 20px 0;
+  padding: 24px 40px 24px 0;
   display: flex;
   align-items: center;
   border-bottom: 1px solid #e6efde;
@@ -384,4 +387,34 @@ body {
 
 .tabs__box .tab.active:after {
   display: none;
+}
+
+.tabs__content-reviews {
+  max-width: 415px;
+  height: 180px;
+  background-color: #f6f9f3;
+  position: absolute;
+  bottom: 0;
+}
+
+.tabs__reviews-inner {
+  width: 375px;
+  height: 140px;
+  border: 1px solid rgba(164, 197, 140, 0.6);
+  margin: 20px;
+}
+
+.tabs__reviews-text {
+  color: #303030;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 40px 30px 40px 50px;
+}
+
+.tabs__reviews-link {
+  color: #7eb252;
+  line-height: 24px;
+  padding: 0 8px;
+  position: absolute;
+  bottom: -15px;
 }
