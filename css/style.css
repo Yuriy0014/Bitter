@@ -423,7 +423,7 @@ body {
   justify-content: flex-end;
 }
 
-.list__link a{
+.list__link a {
   width: 500px;
   max-height: 70px;
   background-color: #7eb252;
@@ -448,4 +448,13 @@ body {
   right: 111px;
   top: 30px;
   opacity: 0.5;
+}
+
+.popularity {
+  margin: 0 auto;
+  min-width: 875px;
+  min-height: 645px;
+  max-width: 1720px;
+  background-image: url(../images/popularity-bg.jpg);
+  background-repeat: no-repeat;
 }
