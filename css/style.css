@@ -416,5 +416,40 @@ body {
   line-height: 24px;
   padding: 0 8px;
   position: absolute;
-  bottom: -15px;
+  bottom: 10px;
+  background-color: #f6f9f3;
+  margin-left: 50px;
+  padding-bottom: 1px;
+}
+
+.list__link {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.list__link a{
+  width: 500px;
+  max-height: 70px;
+  background-color: #7eb252;
+  color: #ffffff;
+  padding: 22px 160px 30px 115px;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+  letter-spacing: 0.7px;
+  text-decoration: none;
+  position: relative;
+  margin-top: 20px;
+}
+
+.list__link a:after {
+  content: '';
+  background-image: url(../images/arrow-right.png);
+  width: 31px;
+  height: 9px;
+  position: absolute;
+  right: 111px;
+  top: 30px;
+  opacity: 0.5;
 }
