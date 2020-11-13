@@ -451,10 +451,24 @@ body {
 }
 
 .popularity {
+  padding-top: 200px;
+}
+
+.popularity__wrapper {
   margin: 0 auto;
   min-width: 875px;
   min-height: 645px;
   max-width: 1720px;
   background-image: url(../images/popularity-bg.jpg);
   background-repeat: no-repeat;
+}
+
+.popularity__inner {
+  display: flex;
+  align-items: flex-end;
+}
+
+.popularity__right {
+  max-width: 500px;
+  padding-right: 30px;
 }
