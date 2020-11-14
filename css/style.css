@@ -7,6 +7,15 @@ body {
   font-weight: 400;
 }
 
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 30vh;
+  max-height: 300px;
+}
+
 .container {
   max-width: 1200px;
   padding-left: 15px;
@@ -470,5 +479,40 @@ body {
 
 .popularity__right {
   max-width: 500px;
-  padding-right: 30px;
+  padding-right: 25px;
+}
+
+.popularity__right-title {
+  color: #303030;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  padding-top: 40px;
+  margin-bottom: 50px;
+}
+
+.popularity__right-subtitle {
+  color: #303030;
+  font-weight: 700;
+  line-height: 20px;
+  text-transform: uppercase;
+  margin-bottom: 60px;
+}
+
+.popularity__right-list li {
+  position: relative;
+  padding-left: 45px;
+  color: #303030;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 400;
+}
+
+.popularity__right-list li:before {
+  content: "";
+  position: absolute;
+  left:0;
+  background-image: url(../images/arrow-right.svg);
+  width: 9px;
+  height: 14px;
 }
