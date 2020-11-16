@@ -475,6 +475,7 @@ ul {
 .popularity__inner {
   display: flex;
   align-items: flex-end;
+  justify-content: flex-end;
 }
 
 .popularity__right {
@@ -506,13 +507,45 @@ ul {
   font-size: 16px;
   line-height: 22px;
   font-weight: 400;
+  padding-top: 5px;
 }
 
 .popularity__right-list li:before {
   content: "";
   position: absolute;
-  left:0;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
   background-image: url(../images/arrow-right.svg);
   width: 9px;
   height: 14px;
+}
+
+.popularity__box {
+  background-color: #fff;
+  padding: 20px;
+  margin-right: 69px;
+}
+
+.popularity__box-text {
+  color: #303030;
+  border: 1px solid #a4c58c;
+  padding: 40px 75px 40px 40px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.popularity__box-link {
+  max-height: 70px;
+  background-color: #7eb252;
+  color: #ffffff;
+  padding: 22px 85px 22px 40px;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+  letter-spacing: 0.7px;
+  text-decoration: none;
+  position: relative;
+  margin-top: 20px;
 }
